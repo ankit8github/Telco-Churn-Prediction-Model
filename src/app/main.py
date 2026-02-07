@@ -211,6 +211,7 @@ app = gr.mount_gradio_app(
 )
 if __name__ == "__main__":
     import uvicorn
+    import os
 
     uvicorn.run(
         "src.app.main:app",
