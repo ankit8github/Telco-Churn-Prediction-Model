@@ -209,15 +209,3 @@ app = gr.mount_gradio_app(
     demo,          # Gradio interface
     path="/ui"     # URL path where Gradio will be accessible
 )
-if __name__ == "__main__":
-    import uvicorn
-    import os
-
-    port = int(os.environ.get("PORT", 7860))
-
-    uvicorn.run(
-        "src.app.main:app",
-        host="0.0.0.0",
-        port=port,
-        reload=False
-    )
