@@ -209,3 +209,12 @@ app = gr.mount_gradio_app(
     demo,          # Gradio interface
     path="/ui"     # URL path where Gradio will be accessible
 )
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(
+        "src.app.main:app",
+        host="0.0.0.0",   # REQUIRED for Docker
+        port=7860,        # Must match Docker port
+        reload=False
+    )
