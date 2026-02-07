@@ -1,0 +1,83 @@
+############################
+# Python environments
+############################
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+############################
+# Python cache / build
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+############################
+# Virtualenv & package tools
+############################
+pip-wheel-metadata/
+.eggs/
+
+############################
+# ML artifacts (exclude by default)
+############################
+mlruns/
+artifacts/
+data/raw/
+data/processed/
+data/interim/
+
+############################
+# Allow bundled inference model (explicitly tracked)
+############################
+!src/serving/model/
+!src/serving/model/**
+
+############################
+# Environment & secrets
+############################
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.json
+
+############################
+# Logs & temp files
+############################
+*.log
+*.tmp
+*.temp
+
+############################
+# OS cruft
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# IDEs & editors
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+
+############################
+# Jupyter / notebooks
+############################
+.ipynb_checkpoints/

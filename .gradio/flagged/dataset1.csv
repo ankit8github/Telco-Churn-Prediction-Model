@@ -1,0 +1,7 @@
+Gender,"Senior Citizen (0=No, 1=Yes)",Partner,Dependents,Phone Service,Multiple Lines,Internet Service,Online Security,Online Backup,Device Protection,Tech Support,Streaming TV,Streaming Movies,Contract,Paperless Billing,Payment Method,Tenure (months),Monthly Charges ($),Total Charges ($),Churn Prediction,timestamp
+Male,0,Yes,Yes,Yes,No,DSL,Yes,Yes,No,Yes,Yes,Yes,One year,Yes,Mailed check,7,100,1,Likely to churn,2026-02-07 17:06:31.989831
+Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,1,85,85,Likely to churn,2026-02-07 17:10:52.594970
+Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,1,85,85,,2026-02-07 17:23:15.984073
+Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,1,85,85,Likely to churn,2026-02-07 17:31:36.357551
+Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,1,85,85,,2026-02-07 17:33:29.733436
+Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,1,85,85,Likely to churn,2026-02-07 19:16:49.764409
